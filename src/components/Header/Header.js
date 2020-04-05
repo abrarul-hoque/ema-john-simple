@@ -5,7 +5,6 @@ import { useAuth } from '../Login/useAuth';
 
 const Header = () => {
     const auth = useAuth();
-    console.log(auth);
 
     return (
         <div className="header">
